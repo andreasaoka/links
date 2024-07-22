@@ -35,13 +35,21 @@
             max-width: 400px;
         }
 
+        main {
+            width: 100%;
+            max-width: 400px;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
         .links {
-            margin-top: 20px;
             display: flex;
             flex-direction: column;
             gap: 20px;
-            width: 100%;
-            max-width: 400px;
         }
 
         .links a {
@@ -75,11 +83,13 @@
     <header>
         <img src="headerlink.jpg" alt="Andre Asaoka">
     </header>
-    <div class="links">
-        <a href="https://andreasaoka.github.io/meusite/" target="_blank">Meu Site</a>
-        <a href="https://wa.me/5511999478135" target="_blank">Fale Comigo</a>
-        <a href="https://example.com/estudos" target="_blank">Estudos</a>
-    </div>
+    <main>
+        <div class="links">
+            <a href="https://andreasaoka.github.io/meusite/" target="_blank">Meu Site</a>
+            <a href="https://wa.me/5511999478135" target="_blank">Fale Comigo</a>
+            <a href="https://example.com/estudos" target="_blank">Estudos</a>
+        </div>
+    </main>
     <footer>
         <p>&copy; 2024 Andre Asaoka. Todos os direitos reservados.</p>
     </footer>
